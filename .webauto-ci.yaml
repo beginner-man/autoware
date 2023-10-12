@@ -26,12 +26,12 @@ simulations:
         initialize_duration: "45"
 
 release:
-  components:
-    - name: planning
-      deployment:
-        type: container
-        artifact: main
-    - name: perception
-      deployment:
-        type: container
-        artifact: main
+  # components:
+  #   - name: planning
+  #     deployment:
+  #       type: container
+  #       artifact: main
+  #   - name: perception
+  #     deployment:
+  #       type: container
+  #       artifact: main
